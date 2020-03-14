@@ -52,7 +52,7 @@ def main():
         )
         # 서울 세부 내용
         result += soup.select(
-            "#move-cont1 > div:nth-child(2) > h5:nth-child(3) > strong"
+            "#move-cont1 > div:nth-child(4) > h5:nth-child(3) > strong"
         )
 
         for word in result:
